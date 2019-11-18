@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: book-app-container
-        image: eu.gcr.io/klara-tryout/book-app
+        image: devdaycr.azurecr.io/book-app
         # Add opening port
         ports:                                      #+
         - containerPort: 8080                       #+
