@@ -1,4 +1,4 @@
-FROM openjdk:11.0.4-jdk
+FROM openjdk:8-jdk-alpine
 
 USER root
 RUN mkdir /opt/devday2019
